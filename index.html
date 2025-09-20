@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-end</title>
+</head>
+<body>
+    <h1>Front-end - 19/09/25</h1>
+    <div id="saida"></div>
+    <script>
+        let saida = document.getElementById("saida");
+        let calc;
+        let num1 = parseFloat(prompt("Digite o primeiro numero"));//2.5
+        let num2 = parseFloat(prompt("Digite o segundo numero"));//3.5
+        calc=num1+num2;
+        saida.innerHTML="Número 1 = "+num1+"<br>";
+        saida.innerHTML+="Número 2 = "+num2+"<br>";
+        saida.innerHTML+="Cálculo = "+calc+"<br>";
+        saida.innerHTML+="Soma: "+(num1+num2)+"<br>";
+        saida.innerHTML+="Subtração: "+(num1-num2)+"<br>";
+        saida.innerHTML+="Multiplicação "+(num1*num2)+"<br>";
+        saida.innerHTML+="Divisão: "+(num1/num2)+"<br>";
+        saida.innerHTML+="Módulo (Resto): "+(num1%num2)+"<br>";
+        saida.innerHTML+="Exponenciação: "+(num1**num2)+"<br>";
+    </script>
+</body>
+</html>
